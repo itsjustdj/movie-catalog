@@ -1,0 +1,164 @@
+/* Beachy Color Palette
+--flax: #e2d686ff;
+--onyx: #363946ff;
+--dim-gray: #696773ff;
+--morning-blue: #819595ff;
+--ash-gray: #b1b6a6ff; */
+
+
+/* Global Styles
+-----------------------------------*/
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+    /* height: 100%; */
+}
+
+body{
+    color: #363946ff; /* Onyx */
+    /* background-color: #e2d686ff; Flax */
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* height: 100vh; */
+}
+img {
+    width: 300px;
+}
+a {
+    color: rgb(77, 72, 44);
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+    line-height: 1.3;
+}
+h1, h2 {
+    font-family: 'Cutive', serif;
+    margin: 0;
+    /* font-weight: 100px; */
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 801px) {
+    h1,h2 {
+      font-size: 20px;
+    }
+  }
+
+/* Custom CSS
+-------------------------------------------*/
+
+.content-wrap {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 80vh;
+}
+
+.content-wraplong {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    background-color: #819595ff;
+    max-height: 150px;
+}
+.header-nonav {
+    text-align: center;
+    background-color: #819595ff;
+    max-height: 100px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu a {
+    padding: 10px;
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration:none;
+}
+
+.nav-menu a:hover {
+    color:yellow;
+}
+
+.catalog {
+    background-color: #b1b6a6ff;
+    padding: 15px;
+}
+
+.main-content {
+    background-color: #b1b6a6ff;
+    padding: 15px;
+    height: 80vh;
+}
+
+.search {
+    background-color: #b1b6a6ff;
+    padding: 15px;
+}
+
+.add-form {
+    background-color: #b1b6a6ff;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.added-movie {
+    background-color: #b1b6a6ff;
+    padding: 45px 10px;
+}
+
+.query-echo {
+    color: white;
+}
+
+.search-results {
+    background-color: #b1b6a6ff;
+    padding: 15px 15px;
+}
+
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #363946ff;
+    color: rgb(140, 143, 150);;
+    font-size:small;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer a{
+    color:white;
+}
+
+/* Alternates the color in the table rows */
+.odd {
+    background-color: rgb(195, 201, 182);
+}

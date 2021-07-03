@@ -1,0 +1,1 @@
+INSERT INTO `movie_catalog`.`movies` (`Title`, `Year`,`Genre`,`Actor1`,`Actor2`,`Actor3`,`Rating`,`Type`) VALUES ('Ghandi','1982','Biography','Ben Kingsley','Martin Sheen','Candace Bergen','5','DVD');
