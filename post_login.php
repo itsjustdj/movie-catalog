@@ -64,7 +64,7 @@ echo "<p>That is the wrong username or password.</p>";
 <section class="main-content">
 <div class="content-wrap">
 <p>You feelin' lucky, punk?<a href="login.php"> Try again.</a></p>
-<img src="includes/images/dirty-harry.jpg" alt="Dirty Harry" style="width:500px">
+<img src="includes/images/dirty-harry.jpg" alt="Dirty Harry" style="width:500px" alt="Dirty Harry">
 </section>
 </div>
 <!-- ***********************  FOOTER  *********************** -->
