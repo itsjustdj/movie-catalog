@@ -52,12 +52,14 @@ h1, h2 {
     /* font-weight: 100px; */
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (max-width: 801px) {
+
+@media (max-width: 800px) {
     h1,h2 {
       font-size: 20px;
     }
   }
+
+
 
 /* Custom CSS
 -------------------------------------------*/
@@ -67,7 +69,7 @@ h1, h2 {
     width: 100%;
     margin: 0 auto;
     padding: 20px 0;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .content-wraplong {
@@ -75,14 +77,18 @@ h1, h2 {
     width: 100%;
     margin: 0 auto;
     padding: 20px 0;
-    height: 100vh;
+    /* height: 100vh; */
 }
+
 
 .header {
     text-align: center;
     background-color: #819595ff;
-    max-height: 150px;
+    /* max-height: 150px; */
+    padding: 15px;
+    width: 100vw;
 }
+
 .header-nonav {
     text-align: center;
     background-color: #819595ff;
@@ -105,6 +111,7 @@ h1, h2 {
 
 .nav-menu a:hover {
     color:yellow;
+
 }
 
 .catalog {

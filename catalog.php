@@ -11,7 +11,6 @@
     <main>
         <!-- ***********************  HEADER  *********************** -->
     <section class="header">
-    <div class="content-wrap">
     <h1>Movie Collection</h1>
         <!-- ***********************  NAV MENU  *********************** -->
 <?php
@@ -39,7 +38,7 @@ else
 }
 
 //***
-echo "<table id='Grid' style='width: 100%'><tr>";
+echo "<table id='Grid' style='width: 90vw margin-left: auto; margin-right: auto;'><tr>";
 echo "<th style='width: 300px'>Title</th>";
 echo "<th style='width: 50px'>Year</th>";
 echo "<th style='width: 200px'>Genre</th>";
