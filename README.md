@@ -8,7 +8,7 @@ The movies.sql and users.sql files are there to import into your own db if you w
 
 There is a movie catalog screen cap.jpg file so you can see how it should look.
 
-_This is loosely based on the project in Alan Forbes's book The Joy of PHP._
+_Disclaimer: This is loosely based on the project in Alan Forbes's book The Joy of PHP. Please don't use for commercial purposes._
 
 ## Instructions
 This is best done on your local machine using MAMP, XAMP or something like that.
