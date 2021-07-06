@@ -14,7 +14,7 @@
     <h1>Movie Collection</h1>
         <!-- ***********************  NAV MENU  *********************** -->
 <?php
-include 'nav.php'
+include 'nav.php';
 ?>
 <!-- Add alphabetical nav menu to click on a letter and go to that section. -->
 </div>
@@ -28,7 +28,7 @@ include 'nav.php'
 include 'includes/db.php';
 
 $query = "SELECT * FROM movies ORDER BY Title";
-/* Try to insert the new car into the database */
+/* Try to find the movies in the database */
 if ($result = $mysqli->query($query)) {
    // Don't do anything if successful.
 }
