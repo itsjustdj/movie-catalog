@@ -13,9 +13,9 @@ _This is loosely based on the project in Alan Forbes's book The Joy of PHP._
 ## Instructions
 This is best done on your local machine using MAMP, XAMP or something like that.
 1. Put all the files in a folder
-2. In PHP MyAdmin on your server, create a new database.
+2. In PHP MyAdmin on your server, create a new database called 'movies_books'.
 3. Import movies.sql and users.sql into the database.
 4. Create a password for one of the users, or create a new user. Use MD5 for the password encryption.
-5. Open up the site and play around!
+5. Open up the site in your browser and play around!
 
 If you have any questions, suggestions or just want to give me feedback on my code (please?), you can contact me at dj@itsjustdj.com.
