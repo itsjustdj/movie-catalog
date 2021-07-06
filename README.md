@@ -6,4 +6,6 @@ I created this personal project so I could learn PHP. I realize there are a lot 
 
 The movies.sql and users.sql files are there to import into your own db if you want to try the site with data without having to build it yourself. You'll need to create your own passwords for the existing users, unless you want to use those encrypted long ones.
 
+There is a movie catalog screen cap.jpg file so you can see how it should look.
+
 If you have any questions, suggestions or just want to give me feedback on my code (please?), you can contact me at dj@itsjustdj.com.
